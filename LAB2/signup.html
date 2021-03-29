@@ -24,11 +24,19 @@
             <label>전화번호 : <input name = "phone" type = "tel" placeholder = "###-####-####" pattern = "\d{3}-\d{4}-\d{4}" required /></label>
         </p>
         <p>
-            <label>비밀번호 : <input name = "id" type = "text" placeholder = "아이디를 입력하세요" autofocus /></label>
+            <label>비밀번호 : <input name = "id" type = "text" placeholder = "아이디를 입력하세요" autofocus required /></label>
         </p>
         <p>
             <label>비밀번호 : <input name = "pass" type = "password" placeholder = "비밀번호 입력하세요" required /></label>
         </p>
+        <p>
+            <label>비밀번호 확인 : <input name = "passcheck" type = "password" placeholder = "비밀번호 확인" required /></label>
+        </p>
+        <p>
+            <input type = "submit" value = "Signup" />
+            <input type = "reset" value = "Cancel" />
+        </p>
+        <br>
     </body>
     <!-- requirements
     autocomplete, autofocus(V), placeholder(V), required(V), pattern(V), etc.-->
