@@ -1,10 +1,10 @@
 /* requirements
-background-color, text-align, padding, margin, border, 
-font-size, font-family, color, width, height */
+background-color(V), text-align, padding, margin, border, 
+font-size(V), font-family(V), color(V), width, height */
 
-body    {   font-family: arial, helvetica, sans-serif; }
-a.nodec {   text-decoration: none; }
-a:hover {   text-decoration: underline;
-            color: red; }
-input   {   margin-left: 50px;
-            font-size: .8em; }
+body    {   font-family: arial, helvetica, sans-serif; 
+            background-color: Steelblue; 
+            text-align: center; }
+h1      {   font-family: 'times new roman', times, serif;
+            color: navy; }
+p       {   font-size: 12pt; }
