@@ -10,9 +10,8 @@ h1      {   font-family: 'times new roman', times, serif;
 h1.slide  {   animation-name: slider;
             animation-duration: 2s; }
 @keyframes slider {
-    0% {left: 1000px;}
-    50% {left: 500px;}
-    100% {left: 0px;}
+    from {  left: 1000px; }
+    to   {  left: 0px; }
 }
 p       {   font-size: 12pt; }
 button  {   padding: .5em;
