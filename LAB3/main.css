@@ -1,16 +1,12 @@
-/* requirements
-background-color(V), text-align(V), padding(V), margin(V), border(V), 
-font-size(V), font-family(V), color(V), width(V), height(V) */
+/* External style sheet */
 
 body    {   font-family: arial, helvetica, sans-serif; 
             background-color: Steelblue; 
-            position: relative;
             text-align: center; 
-            width: 1020px;}
+            /*width: 1020px;*/}
 h1      {   font-family: 'times new roman', times, serif;
             color: navy; }
-.slide  {   position: relative;
-            animation-name: slider;
+.slide  {   animation-name: slider;
             animation-duration: 2s; }
 @keyframes slider {
     0% {left: 1000px;}
