@@ -17,16 +17,21 @@ h1      {   font-family: 'times new roman', times, serif;
             width: 1020px; }
 }
 img {
-    width: 20%;
-    height: 20%;
+    width: 100px;
+    height: 100px;
     transition: width 2s, height 2s;
 }
 img:hover {
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
 }
 
-p       {   font-size: 12pt; }
+p { font-size: 12pt; }
+.flexboi {
+    display: flex;
+    column-count: 2; column-gap: 20px; column-width: 400px;
+    column-rule-style: solid; column-rule-width: 1px; column-rule-color: white;
+}
 button  {   padding: .5em;
             margin: 1em;
             border: dotted}
