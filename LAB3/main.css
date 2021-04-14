@@ -3,10 +3,10 @@
 body    {   font-family: arial, helvetica, sans-serif; 
             background-color: Steelblue; 
             text-align: center; 
-            /*width: 1020px;*/}
+            max-width: 1020px;}
 h1      {   font-family: 'times new roman', times, serif;
             color: navy; }
-.slide  {   animation-name: slider;
+h1.slide  {   animation-name: slider;
             animation-duration: 2s; }
 @keyframes slider {
     0% {left: 1000px;}
