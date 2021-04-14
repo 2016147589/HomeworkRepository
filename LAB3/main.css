@@ -25,13 +25,13 @@ img:hover {
     width: 500px;
     height: 500px;
 }
-
-p { font-size: 12pt; }
 .flexboi {
     display: flex;
+    flex-direction: row;
     column-count: 2; column-gap: 20px; column-width: 400px;
     column-rule-style: solid; column-rule-width: 1px; column-rule-color: white;
 }
+p { font-size: 12pt; }
 button  {   padding: .5em;
             margin: 1em;
             border: dotted}
