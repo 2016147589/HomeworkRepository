@@ -1,0 +1,19 @@
+/* requirements
+background-color(V), text-align(V), padding(V), margin(V), border(V), 
+font-size(V), font-family(V), color(V), width(V), height(V) */
+
+body    {   font-family: arial, helvetica, sans-serif; 
+            background-color: Steelblue; 
+            text-align: center; 
+            height: 150px;
+            overflow: scroll; }
+h1      {   font-family: 'times new roman', times, serif;
+            color: navy; 
+            width: 50%; }
+p       {   font-size: 12pt; }
+button  {   padding: .5em;
+            margin: 1em;
+            border: dotted}
+.grass  {background-color: greenyellow}
+.ocean  {background-color: teal}
+.fire   {background-color: firebrick}
