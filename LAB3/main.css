@@ -2,7 +2,7 @@
 
 body    {   font-family: arial, helvetica, sans-serif; 
             background-color: Steelblue; 
-            text-align: center; 
+            text-align: left; 
             width: 1020px;
             margin: auto;}
 h1      {   font-family: 'times new roman', times, serif;
@@ -21,3 +21,15 @@ button  {   padding: .5em;
 .grass  {background-color: greenyellow}
 .ocean  {background-color: teal}
 .fire   {background-color: firebrick}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
