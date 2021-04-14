@@ -5,11 +5,17 @@ font-size(V), font-family(V), color(V), width(V), height(V) */
 body    {   font-family: arial, helvetica, sans-serif; 
             background-color: Steelblue; 
             text-align: center; 
-            height: 150px;
-            overflow: scroll; }
+            width: 1020px;}
 h1      {   font-family: 'times new roman', times, serif;
             color: navy; 
             width: 50%; }
+.slide  {   animation-name: slider;
+            animation-duration: 2s; }
+@keyframes slider {
+    0% {left: 1000px;}
+    50% {left: 500px;}
+    100% {left: 0px;}
+}
 p       {   font-size: 12pt; }
 button  {   padding: .5em;
             margin: 1em;
