@@ -4,14 +4,17 @@ body    {   font-family: arial, helvetica, sans-serif;
             background-color: Steelblue; 
             text-align: left; 
             width: 1020px;
-            margin: auto;}
+            margin: auto; }
 h1      {   font-family: 'times new roman', times, serif;
-            color: navy;
-            animation-name: slider;
-            animation-duration: 2s; }
+            color: navy; }
+.slide  {
+    animation-name: slider;
+    animation-duration: 2s; }
 @keyframes slider {
-    from {  left: 1000px; }
-    to   {  left: 0px; }
+    from {  margin-left: 100%;
+            width: 200% }
+    to   {  margin-left: 0%;
+            width: 100%; }
 }
 p       {   font-size: 12pt; }
 button  {   padding: .5em;
