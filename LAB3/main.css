@@ -6,8 +6,8 @@ body    {   font-family: arial, helvetica, sans-serif;
             width: 1020px;
             margin: auto;}
 h1      {   font-family: 'times new roman', times, serif;
-            color: navy; }
-h1.slide  {   animation-name: slider;
+            color: navy;
+            animation-name: slider;
             animation-duration: 2s; }
 @keyframes slider {
     from {  left: 1000px; }
@@ -20,15 +20,3 @@ button  {   padding: .5em;
 .grass  {background-color: greenyellow}
 .ocean  {background-color: teal}
 .fire   {background-color: firebrick}
-div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-  }
-  
-  @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
