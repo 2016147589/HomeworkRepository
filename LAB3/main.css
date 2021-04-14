@@ -8,9 +8,9 @@ body    {   font-family: arial, helvetica, sans-serif;
             text-align: center; 
             width: 1020px;}
 h1      {   font-family: 'times new roman', times, serif;
-            color: navy; 
-            width: 50%; }
-.slide  {   animation-name: slider;
+            color: navy; }
+.slide  {   position: relative;
+            animation-name: slider;
             animation-duration: 2s; }
 @keyframes slider {
     0% {left: 1000px;}
