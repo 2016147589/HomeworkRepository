@@ -4,6 +4,7 @@ font-size(V), font-family(V), color(V), width(V), height(V) */
 
 body    {   font-family: arial, helvetica, sans-serif; 
             background-color: Steelblue; 
+            position: relative;
             text-align: center; 
             width: 1020px;}
 h1      {   font-family: 'times new roman', times, serif;
