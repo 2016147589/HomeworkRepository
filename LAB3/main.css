@@ -26,8 +26,6 @@ img:hover {
     height: 500px;
 }
 .flexboi {
-    display: flex;
-    flex-direction: row;
     column-count: 2; column-gap: 20px; column-width: 400px;
     column-rule-style: solid; column-rule-width: 1px; column-rule-color: white;
 }
