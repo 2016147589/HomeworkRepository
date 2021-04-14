@@ -19,6 +19,7 @@ h1      {   font-family: 'times new roman', times, serif;
 img {
     width: 20%;
     height: 20%;
+    transition: width 2s, height 2s;
 }
 img:hover {
     width: 100%;
